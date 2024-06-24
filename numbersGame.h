@@ -24,6 +24,7 @@ private:
     Ui::NumbersGame *ui;
     std::vector<int> randomNumGenerator();
     std::vector<int> numberVec;
+    void compareVectors(std::vector<int> guessNum, std::vector<int>randNum);
 };
 
 #endif // NUMBERSGAME_H
